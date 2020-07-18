@@ -1,3 +1,25 @@
+# Microservice
+### Microservice Architecture
+* In the 2010s, other disruptive technologies arise which impact the Software Development landscape in a significant way
+* Cloud Computing, Containerization (Docker, Kubernetes), DevOps
+* Likewise some highly productive, lightweight new programming languages e.g. Golang, Rust, Swift comes to scenario
+* Some highly productive, easy to use, lightweight programming language like JavaScript, Python become mainstream
+* There is a change in Software Development model also
+* Waterfall software development model is almost discarded
+* Replaced by fast, iterative, incremental Software development methodology: Agile Software development
+* Computer Hardware also changed massively with cheaper, faster main memory and rise of Multi-Core CPU, GPU
+* New Database technologies like NoSQL, NewSQL emerges and become mainstream
+* To handle the complexity of modern software applications
+* To take the advantages of Cloud Computing, Containerization, DevOps
+* To get benefit from modern Programming languages
+* To fulfill the need of modern software development (fast development, horizontal scaling)
+* In 2012, Microservices Architecture; a new software architecture style arose
+* Definition:
+   * _“ Microservice Architecture is about decomposing a Software System into autonomous Units which are independently deployable and which communicates via lightweight, language agnostic way and together they fulfill the business goal. ”_
+* Microservice Architecture also uses the same technique of divide and conquer
+* However, the difference between two is; a microservice can be deployed independently whereas all modules of monolith must deployed as whole
+
+
 ## Advantages of Microservices
 ### Application Scaling
 * Microservices are often Stateless
