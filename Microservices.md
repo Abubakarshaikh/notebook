@@ -1,3 +1,30 @@
+## Advantages of Microservices
+### Application Scaling
+* Microservices are often Stateless
+* If carefully deployed then microservices can offer horizontal scaling within seconds
+* It is the high horizontal scaling which leads the tech giants to move to microservices
+* Supports polyglotting; if a microservie is e.g. CPU intensive, it can be implemented in CPU optimized programming language and other microservices can be implemented in other languages
+### Development Velocity
+* Microservices are often quite small in size
+* Due to the size, adding new features in Microservices are usually faster
+### Development Scaling
+* Microservices are autonomous and can be developed independently
+* Developers/teams can work on different microservices autonomously
+* Companies can hire more developers to scale development
+* Due to sizes, Microservices puts small Cognitive load on new hires
+* Developers take lesser time to write first line of productive code
+### Release Cycle
+* Every microservice is independently deployable
+* Resulting in the much smaller release cycle
+* Using CI/CD pipelines, it is possible to give several releases per day
+### Modularization
+* Boundary between the microservices are external Interfaces aka Physical (Network) which is hard to cross
+* Correctly crafted microservices often offers the “Loosely coupled, highly cohesive” modularization
+### Modernization
+* Microservices are loosely coupled and only communicate via language-agnostic way with each other
+* A microservice can easily be replaced by a new one which can be developed using a new programming language
+* Modernization in microservice architecture is incremental and not Big Bang
+
 ## Disadvantages of Microservices
 * As like anything in life, microservice architecture has also its price and a fair share of disadvantages
 * it is by no means a Golden Hammer which can solve all sort of Problems in a Software Application
